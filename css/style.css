@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oxygen', sans-serif;
+    width: 80%;
+    margin: 5vh auto 0;
+    background-color: #444;
+    color: #e4e4e4;
+}
+h1 {
+    margin-bottom: 1rem;
+}
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+[type=text] {
+    margin: .5em 0 1em;
+    width: 50%;
+}
+[type=radio] {
+    margin-top: .5em;
+}
+button {
+    margin-top: 1em;
+}
+h2 {
+    margin-top: 3vh;
+}
+.ausgabe {
+    display: flex;
+}
+.ausgabe div {
+    width: 30%;
+}
